@@ -9,7 +9,7 @@ public class DemoTest {
     public void getType() throws Exception {
         Triangle triangle=new Triangle(5,10,5)
 
-            String resault=triangle.getType();
+            String result=triangle.getType();
 
         Assert.assertEquals("是不是三角形", result);
     }
